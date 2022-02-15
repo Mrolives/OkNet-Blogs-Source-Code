@@ -1,0 +1,93 @@
+ .fixed-nav-bar { position: sticky; top: 0; left: 0; z-index: 9999; width: 100%; height: 45px; background-color: #ff8800; }
+    
+    h7 {
+       color: rgb(255, 255, 255);
+       font-size:48px;
+       font-weight:400;
+       line-height:1em;
+       margin:0;
+       padding: 2px
+      
+    
+    }
+   
+    
+    .OkNetIcon {
+     position: absolute;
+     left: 170px;
+     top: 8px;
+   }
+
+   
+
+
+
+
+   .dropbtn {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      left: 25px;
+      top: -13px;
+      position: fixed;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      left: -44px;
+      top: 40px;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 14px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #ddd;}
+  
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+
+
+   
+body {
+   background-image: url(Background.png)
+   
+}
+
+
